@@ -1,0 +1,17 @@
+package com.amdocs.training.client;
+
+import com.amdocs.training.dao.AdminDAO;
+import com.amdocs.training.dao.impl.AdminDAOImpl;
+import com.amdocs.training.model.Admin;
+
+public class AdminClient
+{
+	public static void main(String args[])
+	{
+		AdminDAO dao = new AdminDAOImpl();
+		
+		Admin admin = new Admin(7, "Temp2", "temp2@gmail.com", "tempadmin2");
+		dao.saveAdmin(admin);
+		System.out.println("saved successfully");
+	}
+}
