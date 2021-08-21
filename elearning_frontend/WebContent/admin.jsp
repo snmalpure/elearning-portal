@@ -4,15 +4,11 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>E-learning portal</title>
+<link rel="stylesheet" href="temp.css">
+<title>Admin</title>
 </head>
 <body>
- <h1>Welcome to e-learning portal!</h1>
- <hr>
- <a href="welcome">Home</a>
- <a href="registration.jsp">Register</a>
- <a href="course.jsp">Course</a>
- <a href="admin.jsp">Admin</a>
- <a href="feedback.jsp" class="button">Add Feedback</a>
+	<a href="course.jsp" class="button">Add Course</a>
+	<a href="contact.jsp" class="button">Add Contact</a>
 </body>
 </html>

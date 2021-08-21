@@ -12,7 +12,6 @@
  <a href="welcome">Home</a>
  <a href="registration.jsp">Register</a>
  <a href="course.jsp">Course</a>
- <a href="admin.jsp">Admin</a>
- <a href="feedback.jsp" class="button">Add Feedback</a>
+ <a href ="admin.jsp">Admin</a>
 </body>
 </html>
