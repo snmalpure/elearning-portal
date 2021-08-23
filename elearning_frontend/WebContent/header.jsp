@@ -7,11 +7,8 @@
 <title>E-learning portal</title>
 </head>
 <body>
- <h1>Welcome to e-learning portal!</h1>
  <hr>
- <a href="welcome">Home</a>
- <a href="registration.jsp">Register</a>
  <a href="course.jsp">Course</a>
- <a href ="admin.jsp">Admin</a>
+ <hr>
 </body>
 </html>

@@ -3,6 +3,7 @@ package com.amdocs.training.controller;
 import java.io.IOException;
 import java.io.PrintWriter;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -37,10 +38,21 @@ public class UserController extends HttpServlet
 		PrintWriter out = resp.getWriter();
 		
 		if(saveUser) {
-			out.println("User Saved Successfully!");
+			//out.println("User Saved Successfully!");
+			//RequestDispatcher RequetsDispatcherObj =req.getRequestDispatcher("/index.jsp");
+			//RequetsDispatcherObj.forward(req, resp);
+			
+			out.println("<script type=\"text/javascript\">");
+			out.println("alert('Sign Up Successful!');");
+			out.println("location='index.jsp';");
+		    out.println("</script>");
 		}
 		else {
-			out.println("try again");
+			//out.println("try again");
+			out.println("<script type=\"text/javascript\">");
+			   out.println("alert('Sign Up Failed!');");
+			   out.println("location='index.jsp';");
+			   out.println("</script>");
 		}
 		
 	}

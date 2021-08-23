@@ -4,18 +4,23 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Course</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<title>Give Feedback</title>
 </head>
 <body>
+	<h2 align="center">Submit Feedback</h2><br>
+	<hr>
+	<div align="center">
 	<form action="feedback" method="POST">
 	<pre>
-		User ID		: <input type="number" name="userId" /><br>
-		User Name   : <input type="text" name="name" /><br>		
-		Feedback	: <input type="text" name="feedback" /><br>
-		Email		: <input type="email" name="email" /><br>
-		Feedback ID	: <input type="number" name="fid" /><br>
+		User ID		 <input type="number" name="userId" /><br>
+		User Name   	 <input type="text" name="name" /><br>		
+		Feedback	 <input type="text" name="feedback" /><br>
+		Email		 <input type="email" name="email" /><br>
+		Feedback ID	 <input type="number" name="fid" /><br>
 				  	  <input type="submit" value="Submit" /><br>
 	</pre>
 	</form>
+	</div>
 </body>
 </html>
