@@ -28,10 +28,10 @@ ResultSet rs = st.executeQuery("select * from user where user_id='"+id+"'");
 	}%>
 </h2>
 <hr>
-<a href="contact.jsp" class="button">ADD CONTACT</a>
-<a href="enroll.jsp" class ="button">ENROLL COURSE</a>
-<a href="feedback.jsp" class="button">ADD FEEDBACK</a>
-<a href="logout.jsp" class="lo-button">LOG OUT</a><br>
+<a href="contact.jsp" class="user-button">ADD CONTACT</a>
+<a href="enroll.jsp" class ="user-button">ENROLL COURSE</a>
+<a href="feedback.jsp" class="user-button">ADD FEEDBACK</a>
+<a href="logout.jsp" class="logout-button">LOG OUT</a><br>
 
 <h3 align="center">You have enrolled in these courses</h3><br>
 <table border="5" align="center" class="table table-dark">

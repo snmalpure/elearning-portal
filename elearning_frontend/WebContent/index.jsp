@@ -9,7 +9,7 @@
 </head>
 <body>
 <h1 align="center">Welcome to e-learning portal!</h1>
-	<br>
+	<br><hr>
 	<div align="center">
 	<form action="login.jsp" method="post">
 		<pre>

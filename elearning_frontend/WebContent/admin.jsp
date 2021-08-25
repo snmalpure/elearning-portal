@@ -23,6 +23,7 @@ ResultSet rs;
 	<a href="course.jsp" class="button">ADD COURSE</a>
 	<a href="feedbackview.jsp" class="button">VIEW FEEDBACKS</a>
 	<a href="contactview.jsp" class="button">VIEW CONTACTS</a>
+	<a href="deletecourse.jsp" class="lo-button"> DELETE COURSE</a>
 	<a href="deleteuser.jsp" class="lo-button"> DELETE USER</a>
 	<a href="logout.jsp" class="log-button">LOG OUT</a>
 	</p>

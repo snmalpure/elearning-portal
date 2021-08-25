@@ -34,10 +34,18 @@ public class FeedbackController extends HttpServlet
 		PrintWriter out = resp.getWriter();
 		
 		if(saveFeedback) {
-			out.println("Feedback Saved Successfully!");
+			//out.println("Feedback Saved Successfully!");
+			out.println("<script type=\"text/javascript\">");
+			out.println("alert('Feedback sent successfully!');");
+			out.println("location='userview.jsp';");
+			out.println("</script>");
 		}
 		else {
-			out.println("try again");
+			//out.println("try again");
+			out.println("<script type=\"text/javascript\">");
+			out.println("alert('Could not send feedback! Please try again.');");
+			out.println("location='feedback.jsp';");
+			out.println("</script>");
 		}
 		
 	}

@@ -7,8 +7,8 @@
   border-right: 1px solid #333333;
   border-bottom: 1px solid #333333;
   border-left: 1px solid #CCCCCC;
-  margin-right: 40px;
-  margin-left: 40px;
+  margin-right: 20px;
+  margin-left: 30px;
   margin-bottom: 100px;
   margin-top: 40px;
   padding: 10px 10px 10px 10px;
@@ -20,8 +20,8 @@
   background-color: red;
   color: white;
   padding: 10px 10px 10px 10px;
-  margin-left: 150px;
-  margin-right: 40px;
+  margin-left: 80px;
+  margin-right: 10px;
   margin-bottom: 100px;
   margin-top: 40px;
   border-top: 1px solid #CCCCCC;
@@ -39,12 +39,46 @@
   border-right: 1px solid #333333;
   border-bottom: 1px solid #333333;
   border-left: 1px solid #CCCCCC;
-  margin-right: 40px;
+  margin-right: 20px;
   margin-left: 100px;
   margin-bottom: 100px;
   margin-top: 40px;
   padding: 10px 10px 10px 10px;
 }
+
+.logout-button {
+  font: bold 12px Arial;
+  text-decoration: none;
+  background-color: green;
+  color: white;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+  margin-right: 10px;
+  margin-left: 250px;
+  margin-bottom: 100px;
+  margin-top: 40px;
+  padding: 10px 10px 10px 10px;
+}
+
+.user-button {
+  font: bold 12px Arial;
+  text-decoration: none;
+  background-color: skyblue;
+  color: #333333;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+  margin-right: 40px;
+  margin-left: 60px;
+  margin-bottom: 100px;
+  margin-top: 40px;
+  padding: 10px 10px 10px 10px;
+}
+
+
 
 h3 {
 	margin-top: 40px;

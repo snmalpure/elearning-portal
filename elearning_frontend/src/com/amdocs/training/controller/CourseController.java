@@ -34,10 +34,18 @@ public class CourseController extends HttpServlet
 		PrintWriter out = resp.getWriter();
 		
 		if(saveCourse) {
-			out.println("Course Saved Successfully!");
+			//out.println("Course Saved Successfully!");
+			out.println("<script type=\"text/javascript\">");
+			out.println("alert('Course added successfully!');");
+			out.println("location='admin.jsp';");
+			out.println("</script>");
 		}
 		else {
-			out.println("try again");
+			//out.println("try again");
+			out.println("<script type=\"text/javascript\">");
+			out.println("alert('Course addition failed! Please try again.');");
+			out.println("location='course.jsp';");
+			out.println("</script>");
 		}
 		
 	}

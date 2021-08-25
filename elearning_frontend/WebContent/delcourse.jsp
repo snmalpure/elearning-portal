@@ -2,7 +2,6 @@
     pageEncoding="ISO-8859-1"%>
 <%@page import="java.sql.*,java.util.*"%>  
 <%
-int id = (int)request.getSession().getAttribute("user_id"); 
 int courseid = Integer.parseInt(request.getParameter("course_id"));
 session.putValue("course_id",courseid);
 
@@ -15,24 +14,24 @@ try{
 	rs.next();
 	if(rs.getInt("course_id") == courseid)
 	{
-		st.executeUpdate("insert into usercourse(user_id, course_id) values('"+id+"', '"+courseid+"')");
-		//out.println("Successfully enrolled in " + courseid + "!");
-		//response.sendRedirect("userview.jsp");
+		st.executeUpdate("delete from course where course_id='"+courseid+"'");
+		//out.println("Successfully deleted " + userid + "!");
+		//response.sendRedirect("admin.jsp");
 		out.println("<script type=\"text/javascript\">");
-		out.println("alert('Enrolled in course successfully!');");
-		out.println("location='userview.jsp';");
+		out.println("alert('Course deleted successfully!');");
+		out.println("location='admin.jsp';");
 		out.println("</script>");
+		
 	}
 	else{
-		out.println("Invalid course ID");
+		out.println("Invalid user ID");
 	}
 }
 catch (Exception e) {
 e.printStackTrace();
 }
-
 out.println("<script type=\"text/javascript\">");
-out.println("alert('Course enrollment failed!');");
-out.println("location='enroll.jsp';");
+out.println("alert('Invalid Course ID! Please try again.');");
+out.println("location='deletecourse.jsp';");
 out.println("</script>");
 %>

@@ -7,16 +7,16 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link rel="stylesheet" href="temp.css">
-<title>Delete User</title>
+<title>Delete Course</title>
 </head>
 <body>
-	<h2 align="center">Delete User</h2><br>
+	<h2 align="center">Delete Course</h2><br>
 	<hr>
 	<div align="center">
-	<form action="deluser.jsp" method="post">
+	<form action="delcourse.jsp" method="post">
 		<pre>
-		Enter User ID 	 <input type="number" name="user_id" /><br>
-					<input	type="submit" value="DELETE" /><br>
+		Enter Course ID 	 <input type="number" name="course_id" /><br>
+						<input	type="submit" value="DELETE" /><br>
 		</pre>
 		
 	</form>
